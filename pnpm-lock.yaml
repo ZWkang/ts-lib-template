@@ -13,15 +13,13 @@ specifiers:
   vitest: ^0.22.1
   zwkang-prettier-config: ^0.0.1
 
-dependencies:
-  prettier: 2.7.1
-
 devDependencies:
   '@typescript-eslint/eslint-plugin': 5.33.1_ac9d23a22d787f7b7991fddcc31412d2
   '@typescript-eslint/parser': 5.33.1_eslint@8.22.0+typescript@4.7.4
   bumpp: 8.2.1
   eslint: 8.22.0
   eslint-config-alloy: 4.6.2_554bd24d0269679a43cb9d68d60560e1
+  prettier: 2.7.1
   tsup: 6.2.2_typescript@4.7.4
   tsx: 3.8.2
   typescript: 4.7.4
@@ -1609,7 +1607,7 @@ packages:
     resolution: {integrity: sha512-ujppO+MkdPqoVINuDFDRLClm7D78qbDt0/NR+wp5FqEZOoTNAjPHWj17QRhu7geIHJfcNhRk1XVQmF8Bp3ye+g==}
     engines: {node: '>=10.13.0'}
     hasBin: true
-    dev: false
+    dev: true
 
   /prompts/2.4.2:
     resolution: {integrity: sha512-NxNv/kLguCA7p3jE8oL2aEBsrJWgAakBpgmgK6lpPWV+WuOmY6r2/zbAVnP+T8bQlA0nzHXSJSJW0Hq7ylaD2Q==}
