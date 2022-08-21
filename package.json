@@ -6,12 +6,10 @@
   "publishConfig": {
     "access": "public"
   },
-  "author": [
-    {
-      "name": "zwkang",
-      "email": "kang95630@gmail.com"
-    }
-  ],
+  "author": {
+    "name": "zwkang",
+    "email": "kang95630@gmail.com"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.coim/zwkang/pkg-name.git"
