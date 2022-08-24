@@ -1,4 +1,4 @@
-lockfileVersion: 5.3
+lockfileVersion: 5.4
 
 specifiers:
   '@typescript-eslint/eslint-plugin': ^5.33.1
@@ -11,20 +11,20 @@ specifiers:
   tsx: ^3.8.2
   typescript: ^4.7.4
   vitest: ^0.22.1
-  zwkang-prettier-config: ^0.0.1
+  zwkang-prettier-config: ^0.0.3
 
 devDependencies:
-  '@typescript-eslint/eslint-plugin': 5.33.1_ac9d23a22d787f7b7991fddcc31412d2
-  '@typescript-eslint/parser': 5.33.1_eslint@8.22.0+typescript@4.7.4
+  '@typescript-eslint/eslint-plugin': 5.33.1_vsoshirnpb7xw6mr7xomgfas2i
+  '@typescript-eslint/parser': 5.33.1_4rv7y5c6xz3vfxwhbrcxxi73bq
   bumpp: 8.2.1
   eslint: 8.22.0
-  eslint-config-alloy: 4.6.2_554bd24d0269679a43cb9d68d60560e1
+  eslint-config-alloy: 4.6.2_kvf5eticnftzuq6ltvunmbla4e
   prettier: 2.7.1
   tsup: 6.2.2_typescript@4.7.4
   tsx: 3.8.2
   typescript: 4.7.4
   vitest: 0.22.1
-  zwkang-prettier-config: 0.0.1
+  zwkang-prettier-config: 0.0.3
 
 packages:
 
@@ -152,7 +152,7 @@ packages:
     resolution: {integrity: sha512-/YP55EMK2341JkODUb8DM9O0x1SIz2aBvyF33Uf1c76St3VpsMXEIW0nxuKkq/5cxnbz0RD9cfwNZHEAZQD3ag==}
     dev: true
 
-  /@typescript-eslint/eslint-plugin/5.33.1_ac9d23a22d787f7b7991fddcc31412d2:
+  /@typescript-eslint/eslint-plugin/5.33.1_vsoshirnpb7xw6mr7xomgfas2i:
     resolution: {integrity: sha512-S1iZIxrTvKkU3+m63YUOxYPKaP+yWDQrdhxTglVDVEVBf+aCSw85+BmJnyUaQQsk5TXFG/LpBu9fa+LrAQ91fQ==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
@@ -163,10 +163,10 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@typescript-eslint/parser': 5.33.1_eslint@8.22.0+typescript@4.7.4
+      '@typescript-eslint/parser': 5.33.1_4rv7y5c6xz3vfxwhbrcxxi73bq
       '@typescript-eslint/scope-manager': 5.33.1
-      '@typescript-eslint/type-utils': 5.33.1_eslint@8.22.0+typescript@4.7.4
-      '@typescript-eslint/utils': 5.33.1_eslint@8.22.0+typescript@4.7.4
+      '@typescript-eslint/type-utils': 5.33.1_4rv7y5c6xz3vfxwhbrcxxi73bq
+      '@typescript-eslint/utils': 5.33.1_4rv7y5c6xz3vfxwhbrcxxi73bq
       debug: 4.3.4
       eslint: 8.22.0
       functional-red-black-tree: 1.0.1
@@ -179,7 +179,7 @@ packages:
       - supports-color
     dev: true
 
-  /@typescript-eslint/parser/5.33.1_eslint@8.22.0+typescript@4.7.4:
+  /@typescript-eslint/parser/5.33.1_4rv7y5c6xz3vfxwhbrcxxi73bq:
     resolution: {integrity: sha512-IgLLtW7FOzoDlmaMoXdxG8HOCByTBXrB1V2ZQYSEV1ggMmJfAkMWTwUjjzagS6OkfpySyhKFkBw7A9jYmcHpZA==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
@@ -207,7 +207,7 @@ packages:
       '@typescript-eslint/visitor-keys': 5.33.1
     dev: true
 
-  /@typescript-eslint/type-utils/5.33.1_eslint@8.22.0+typescript@4.7.4:
+  /@typescript-eslint/type-utils/5.33.1_4rv7y5c6xz3vfxwhbrcxxi73bq:
     resolution: {integrity: sha512-X3pGsJsD8OiqhNa5fim41YtlnyiWMF/eKsEZGsHID2HcDqeSC5yr/uLOeph8rNF2/utwuI0IQoAK3fpoxcLl2g==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
@@ -217,7 +217,7 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@typescript-eslint/utils': 5.33.1_eslint@8.22.0+typescript@4.7.4
+      '@typescript-eslint/utils': 5.33.1_4rv7y5c6xz3vfxwhbrcxxi73bq
       debug: 4.3.4
       eslint: 8.22.0
       tsutils: 3.21.0_typescript@4.7.4
@@ -252,7 +252,7 @@ packages:
       - supports-color
     dev: true
 
-  /@typescript-eslint/utils/5.33.1_eslint@8.22.0+typescript@4.7.4:
+  /@typescript-eslint/utils/5.33.1_4rv7y5c6xz3vfxwhbrcxxi73bq:
     resolution: {integrity: sha512-uphZjkMaZ4fE8CR4dU7BquOV6u0doeQAr8n6cQenl/poMaIyJtBu8eys5uk6u5HiDH01Mj5lzbJ5SfeDz7oqMQ==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
@@ -931,7 +931,7 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /eslint-config-alloy/4.6.2_554bd24d0269679a43cb9d68d60560e1:
+  /eslint-config-alloy/4.6.2_kvf5eticnftzuq6ltvunmbla4e:
     resolution: {integrity: sha512-mntO/1jazNIJJCb3mwtaH4D9uLnEIzI0EM2aYnllYVBmET0t490yBSLdPz+5cWtJsHU2DkW7aPI/kFtal9Vopg==}
     peerDependencies:
       '@babel/eslint-parser': 7.x
@@ -961,8 +961,8 @@ packages:
       vue-eslint-parser:
         optional: true
     dependencies:
-      '@typescript-eslint/eslint-plugin': 5.33.1_ac9d23a22d787f7b7991fddcc31412d2
-      '@typescript-eslint/parser': 5.33.1_eslint@8.22.0+typescript@4.7.4
+      '@typescript-eslint/eslint-plugin': 5.33.1_vsoshirnpb7xw6mr7xomgfas2i
+      '@typescript-eslint/parser': 5.33.1_4rv7y5c6xz3vfxwhbrcxxi73bq
       eslint: 8.22.0
       typescript: 4.7.4
     dev: true
@@ -2047,6 +2047,6 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /zwkang-prettier-config/0.0.1:
-    resolution: {integrity: sha512-41uddJxBlaLVbji8FR8nZ9MIdOofvS3ivEpL/tybnnWeBFGBcw8VWpnjbasQDDSJeCZtUY15yPiuk23ra35oBA==}
+  /zwkang-prettier-config/0.0.3:
+    resolution: {integrity: sha512-q7Lx4zsu6KwtxKzx8X66RwuAujKLOMLQu91e5+Dg2QjPBGWvLlSZ7lyCdW1TVAO5Ye7wU+epnIeI2SrVtC946g==}
     dev: true
