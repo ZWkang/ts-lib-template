@@ -1,4 +1,4 @@
-import { Options } from "tsup"
+import { Options } from "tsup";
 
 const config: Options = {
   splitting: true,
@@ -7,6 +7,6 @@ const config: Options = {
   clean: true,
   dts: true,
   outDir: "./dist",
-}
+};
 
 export default config;
