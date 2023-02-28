@@ -12,9 +12,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.coim/zwkang/pkg-name.git"
+    "url": "git+https://github.com/zwkang/pkg-name.git"
   },
-  "bugs": "https://github.coim/zwkang/pkg-name/issues",
+  "bugs": "https://github.com/zwkang/pkg-name/issues",
   "keywords": [],
   "sideEffects": false,
   "exports": {
