@@ -1,6 +1,6 @@
 {
   "name": "@zwkang-dev/kk-test-pkg",
-  "version": "0.0.0",
+  "version": "0.0.1-beta.0",
   "packageManager": "pnpm@7.9.0",
   "description": "> description:",
   "publishConfig": {
