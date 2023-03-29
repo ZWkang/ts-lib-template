@@ -1,4 +1,4 @@
-# pkg-name
+# kk-test-pkg
 
 > description:
 
@@ -22,7 +22,7 @@ Inspired by
 
 setup a default template to build your own tool, awesome !!
 
-find all pkg-name and replace them all!!
+find all kk-test-pkg and replace them all!!
 
 ## LICENSE
 

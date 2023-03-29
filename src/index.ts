@@ -1,1 +1,1 @@
-export const name = 'pkg-name';
+export const name = 'kk-test-pkg';
