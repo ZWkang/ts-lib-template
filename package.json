@@ -44,7 +44,8 @@
     "test": "vitest run",
     "build": "tsup",
     "start": "tsx src/index.ts",
-    "release": "bumpp && npm publish",
+    "release": "npm publish",
+    "bump:version": "bumpp",
     "typecheck": "tsc --noEmit",
     "prepublishOnly": "npm run build"
   },
