@@ -20,13 +20,7 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: 16.x
-      - name: Creating .npmrc
-        run: |
-          cat << EOF > "$HOME/.npmrc"
-            //registry.npmjs.org/:_authToken=$NPM_TOKEN
-          EOF
-        env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+
       - name: Install pnpm
         uses: pnpm/action-setup@v2.2.2
         with:
@@ -34,9 +28,12 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-
-      - name: Release
-        run: pnpm relese
+      - run: pnpm config set '//registry.npmjs.org/:_authToken' "${{ secrets.NPM_TOKEN }}"
+      - name: Release NPM Package
+        run: pnpm publish --no-git-checks
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NPM_CONFIG_PROVENANCE: true
 
       - run: npx changelogithub
         env:
