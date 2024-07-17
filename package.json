@@ -43,6 +43,7 @@
   "scripts": {
     "dev": "tsup --watch",
     "lint": "eslint --cache .",
+    "lint:fix": "eslint --fix .",
     "test": "vitest run",
     "build": "tsup",
     "start": "tsx src/index.ts",
