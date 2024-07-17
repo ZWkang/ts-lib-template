@@ -1,16 +1,17 @@
 {
   "name": "pkg-name",
+  "type": "module",
   "version": "0.0.0",
-  "packageManager": "pnpm@8.15.6",
+  "packageManager": "pnpm@9.5.0",
   "description": "> description:",
   "publishConfig": {
     "access": "public"
   },
-  "type": "module",
   "author": {
     "name": "zwkang",
     "email": "kang95630@gmail.com"
   },
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zwkang/pkg-name.git"
@@ -21,8 +22,8 @@
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "require": "./dist/index.js",
-      "import": "./dist/index.mjs"
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
     }
   },
   "main": "./dist/index.js",
@@ -52,14 +53,13 @@
     "update:deps": "taze major -lr"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.13.2",
-    "bumpp": "^9.4.0",
-    "eslint": "^9.0.0",
-    "taze": "^0.13.3",
-    "tsup": "^8.0.2",
-    "tsx": "^4.7.2",
-    "typescript": "^5.4.4",
-    "vitest": "^1.4.0"
-  },
-  "license": "MIT"
+    "@antfu/eslint-config": "^2.22.4",
+    "bumpp": "^9.4.1",
+    "eslint": "^9.7.0",
+    "taze": "^0.16.1",
+    "tsup": "^8.1.1",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.3",
+    "vitest": "^2.0.3"
+  }
 }
