@@ -41,11 +41,11 @@
     "dist"
   ],
   "scripts": {
-    "dev": "tsup --watch",
+    "dev": "tsdown --watch",
     "lint": "eslint --cache .",
     "lint:fix": "eslint --fix .",
     "test": "vitest run",
-    "build": "tsup",
+    "build": "tsdown",
     "start": "tsx src/index.ts",
     "release": "npm publish",
     "bump:version": "bumpp",
@@ -58,7 +58,7 @@
     "bumpp": "^10.2.0",
     "eslint": "^9.31.0",
     "taze": "^19.1.0",
-    "tsup": "^8.5.0",
+    "tsdown": "^0.12.9",
     "tsx": "^4.20.3",
     "typescript": "^5.8.3",
     "vitest": "^3.2.4"

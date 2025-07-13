@@ -4,7 +4,7 @@
 
 ## Features
 
-- tsup The simplest and fastest way to bundle your TypeScript libraries.
+- tsdown The simplest and fastest way to bundle your TypeScript libraries.
 - pnpm awesome package manager
 - Eslint + Prettier good format and format checker
 - TypeScript, of course!!

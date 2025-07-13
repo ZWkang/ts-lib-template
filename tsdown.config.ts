@@ -1,9 +1,8 @@
-import type { Options } from 'tsup'
+import type { Options } from 'tsdown'
 
 const config: Options = {
-  splitting: true,
   format: ['esm', 'cjs', 'iife'],
-  entryPoints: ['src/index.ts'],
+  entry: ['src/index.ts'],
   clean: true,
   dts: true,
   outDir: './dist',
