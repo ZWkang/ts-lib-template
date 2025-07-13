@@ -2,7 +2,7 @@
   "name": "pkg-name",
   "type": "module",
   "version": "0.0.1",
-  "packageManager": "pnpm@9.14.2",
+  "packageManager": "pnpm@10.13.1",
   "description": "> description:",
   "publishConfig": {
     "access": "public"
@@ -47,10 +47,10 @@
     "test": "vitest run",
     "build": "tsdown",
     "start": "tsx src/index.ts",
-    "release": "npm publish",
+    "release": "pnpm publish",
     "bump:version": "bumpp",
     "typecheck": "tsc --noEmit",
-    "prepublishOnly": "npm run build",
+    "prepublishOnly": "pnpm run build",
     "update:deps": "taze major -lr"
   },
   "devDependencies": {
