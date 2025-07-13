@@ -1,8 +1,8 @@
 {
   "name": "pkg-name",
   "type": "module",
-  "version": "0.0.0",
-  "packageManager": "pnpm@9.5.0",
+  "version": "0.0.1",
+  "packageManager": "pnpm@9.14.2",
   "description": "> description:",
   "publishConfig": {
     "access": "public"
@@ -54,13 +54,13 @@
     "update:deps": "taze major -lr"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.22.4",
-    "bumpp": "^9.4.1",
-    "eslint": "^9.7.0",
-    "taze": "^0.16.1",
-    "tsup": "^8.1.1",
-    "tsx": "^4.16.2",
-    "typescript": "^5.5.3",
-    "vitest": "^2.0.3"
+    "@antfu/eslint-config": "^4.16.2",
+    "bumpp": "^10.2.0",
+    "eslint": "^9.31.0",
+    "taze": "^19.1.0",
+    "tsup": "^8.5.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.4"
   }
 }
